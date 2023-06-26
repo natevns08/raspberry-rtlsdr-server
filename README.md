@@ -5,8 +5,8 @@ Quick guide to setup a RTL SDR Server on a Raspberry Pi.
 
 ## Base
 
-- Raspbian-litie (https://downloads.raspberrypi.org/raspbian_lite_latest)
-- Raspberry Pi (2 or 3)
+- Dietpi - (https://dietpi.com/#download)
+- Raspberry Pi (3b/b+ or 4)
 
 ⚠️⚠️ The Pi Zero W seems not enough powerfull to handle rtl_tcp.
 
@@ -19,9 +19,7 @@ $ sudo dd bs=1m if=path_of_your_image.img of=/dev/rdiskn conv=sync
 ## Base Setup
 
 ```sh
-$ sudo apt-get update
-$ sudo apt-get upgrade
-$ sudo rpi-update
+$ sudo dietpi-update
 ```
 
 ## Install rtl-sdr software
@@ -57,7 +55,7 @@ After=network.target
 
 [Service]
 ExecStart=/bin/sh -c "/usr/bin/rtl_tcp -a $(hostname -I)"
-WorkingDirectory=/home/pi
+WorkingDirectory=/home/dietpi
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
