@@ -81,4 +81,4 @@ Almost done
 sudo reboot
 ```
 
-Your SDR Server is ready to accept connection on port ```raspberrypi.local:1234```
+Your SDR Server is ready to accept connection on port ```hostname/IP:1234```
