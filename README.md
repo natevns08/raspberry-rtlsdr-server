@@ -1,6 +1,6 @@
 # Raspberry Pi rtl-sdr server setup
 
-Quick guide to setup a RTL SDR Server on a Raspberry Pi.
+Quick guide to setup a RTL SDR Server on a Raspberry Pi, running dietpi.
 
 
 ## Base
