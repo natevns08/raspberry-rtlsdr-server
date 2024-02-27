@@ -32,7 +32,7 @@ $ sudo apt-get install rtl-sdr
 
 Plug your TNT/DVB Dongle.
 
-Done ?! Everything is installed. You can test your setup with :
+Everything is installed. You can test it with :
 
 ```sh
 $ rtl_tcp
