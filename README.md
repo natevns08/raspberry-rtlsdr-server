@@ -6,7 +6,7 @@ Quick guide to setup a RTL SDR Server on a Raspberry Pi, running dietpi.
 ## Base
 
 - Dietpi - (https://dietpi.com/#download)
-- Raspberry Pi (3b/b+ or 4)
+- Raspberry Pi (2 or newer)
 
 ⚠️⚠️ The Pi Zero W seems not enough powerfull to handle rtl_tcp.
 
